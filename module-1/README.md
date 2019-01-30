@@ -1,6 +1,3 @@
----
-path: /web-game-curriculum/module-1
----
 
 
 
