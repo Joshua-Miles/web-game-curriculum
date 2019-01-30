@@ -1,0 +1,34 @@
+# Module 2: Code Organization & Metaprogramming
+
+- Lesson VI: 
+  - Concept: Composition vs Inheritance
+  - Tools:
+    - Factory Functions
+    - The "spread" operator
+  - Application: Multiple enemy types composed of an "Attacker" behavior set
+- Lesson VII:
+  - Concept: Modular Code
+  - Tools
+    - Webpack
+  - Application: An ES6 Module-based dependency system
+- Lesson VIII:
+  - Concept: Meta Programming with Object Prototype Manipulation
+  - Tools:
+    - The Class's "prototype" property
+    - The "rest" operator
+  - Application: A Class definition for our "Attacker" behavior set and higher order enemy types
+- Lesson IX:
+  - Concept: Domain Specific Languages
+  - Tools:
+    - Currying
+    - Closures
+  - Application: A track scripting language to make our enemies move
+- Lesson X:
+  - Concept: Babel and Decorators
+  - Tools: 
+    - Decorators
+    - Babel
+  - Application: Decorators to beautify our higher order Enemy types
+- Projects: 
+  - Using the tools we've built, create a system with at least 6 behavior sets and 3 types composed of those behavior sets. Each Type should have unique interactions with the moveable character
+  - Using the HUD you built in Module 1 and the DSL techniques you learned in this module, create a domain specific language to easily describe a conversation that a character might have with the moveable character, allowing the HUD to render the relevant dialog, and accept input from the user to drive the course of the conversation.
