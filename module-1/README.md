@@ -1,6 +1,3 @@
-
-
-
 # Module 1- Introduction
 
 * [1. The Basics of Rendering]({{page.path}}/1. The Basics of Rendering)
