@@ -1,0 +1,2 @@
+## Project II
+Use what we've learned to build another visual element that is **not** a game object- it should be created using a class representing something which exists outside of the world of the game, such as a health bar, a wallet, or an inventory. It should provide methods or custom object properties to be used by game objects to update the display of the visual element accordingly. In future projects, we will refer to this non-game-object-visual-element as the **HUD** (heads up display).
