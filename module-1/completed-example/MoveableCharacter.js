@@ -28,4 +28,24 @@ class MoveableCharacter extends Character {
         })
     }
 
+    onCollision(object){
+        if(object instanceof Character){
+            switch(this.direction){
+                case 'right':
+                    this.x -= 5
+                break; 
+                case 'left':
+                    this.x += 5
+                break; 
+                case 'up':
+                    this.y -= 5
+                break; 
+                case 'down':
+                    this.y += 5
+                break; 
+            }
+            this.stop()
+        }
+    }
+
 }

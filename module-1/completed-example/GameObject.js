@@ -2,9 +2,10 @@
 
 let gameObjects = []
 
-class GameObject {
+class GameObject  extends EventEmitter {
 
     constructor(x, y){
+        super()
         this.element = document.createElement('img')
         this.element.style.position = 'absolute'
         this.x = x
@@ -80,7 +81,7 @@ setInterval( () => {
                     &&
                 one.bottom < two.top
             ){
-                console.log(one, 'collided with', two)
+                one.emit('collision', two)
             }
         })
     })
